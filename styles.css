@@ -329,5 +329,22 @@ section.skills .item:nth-child(2) .progress-bar .progress{
 section.skills .item:nth-child(3) .progress-bar .progress{
     width: 91%;
 }
+section.services{
+    background-color:var(--color-light)
 
-
+}
+section.services .container{
+   display: grid;
+   gap: 2rem;
+}
+section.services .container .service{
+    background-color: var(--color-white);
+    text-align: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    cursor: default;
+    transition: var(--transition);
+}
+section.services .container .service:hover{
+    box-shadow: 0 3rem 3rem var(--color-primary-light);
+}
