@@ -417,4 +417,37 @@ section.contact form input:focus,section.contact form textarea:focus{
     background: var(--color-white);
     color: var(--color-black);
 }
+footer{
+    padding-top: 5rem;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container ul{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+footer.container ul a{
+    color: var(--color-primary);
+}
+
+footer .container .socials{
+    display: flex;
+    gap: 2rem;
+}
+
+footer .copyright{
+    background: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 5rem;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
 
