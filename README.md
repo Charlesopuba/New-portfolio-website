@@ -8,3 +8,4 @@ Personal portfolio
 - HTML
 - CSS
 - Javascript
+- Markdown
